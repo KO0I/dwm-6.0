@@ -1,0 +1,15 @@
+APPLIED PATCHES
+
+nametag:    use dmenu to name tags. Prepends with tag number
+pertag:     Each tag can have its own layout. Very useful!
+columns:    New orientation for the master panel, makes verticals
+flt color:  Border of floating windows have unique color
+hide vacant:Do not show unused tags
+
+cfacts:     Fine-tune space use(!)
+
+Applied, but not really that great:
+pango:      Allows unicode in bars. Requires reconfig of congig.h!
+
+Stubbornly won't work:
+statuscolors:   Long-term irritant
