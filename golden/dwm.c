@@ -458,15 +458,9 @@ buttonpress(XEvent *e) {
 	}
 	if(ev->window == selmon->barwin) {
 		i = x = 0;
-		unsigned int occ = 0;
-		for(c = m->clients; c; c = c->next)
-			occ |= c->tags;
-		do {
-			/* do not reserve space for vacant tags */
-			if(!(occ & 1 << i || m->tagset[m->seltags] & 1 << i))
-				continue;
+		do
 			x += TEXTW(tags[i]);
-		} while (ev->x >= x && ++i < LENGTH(tags));
+		while(ev->x >= x && ++i < LENGTH(tags));
 		if(i < LENGTH(tags)) {
 			click = ClkTagBar;
 			arg.ui = 1 << i;
@@ -773,14 +767,11 @@ drawbar(Monitor *m) {
 	}
 	dc.x = 0;
 	for(i = 0; i < LENGTH(tags); i++) {
-		/* do not draw vacant tags */
-		if(!(occ & 1 << i || m->tagset[m->seltags] & 1 << i))
-			continue;
 		dc.w = TEXTW(tags[i]);
 		col = m->tagset[m->seltags] & 1 << i ? dc.sel : dc.norm;
 		drawtext(tags[i], col, urg & 1 << i);
 		drawsquare(m == selmon && selmon->sel && selmon->sel->tags & 1 << i,
-		           0, urg & 1 << i, col);
+		           occ & 1 << i, urg & 1 << i, col);
 		dc.x += dc.w;
 	}
 	dc.w = blw = TEXTW(m->ltsymbol);
@@ -1347,17 +1338,6 @@ nametag(const Arg *arg) {
 	if((p = strchr(name, '\n')))
 		*p = '\0';
 
-  // if a string is empty, clear the color
-  if(LENGTH(tags)>0){
-  	for(i = 0; i < LENGTH(tags); i++)
-  		if(selmon->tagset[selmon->seltags] & (1 << i)) {
-  			sprintf(tags[i], TAG_PREPEND, i+1);
-  			strcat(tags[i], name);
-  		}
-  } 
-	drawbars();
-}
-/*
 	for(i = 0; i < LENGTH(tags); i++)
 		if(selmon->tagset[selmon->seltags] & (1 << i)) {
 			sprintf(tags[i], TAG_PREPEND, i+1);
@@ -1365,7 +1345,6 @@ nametag(const Arg *arg) {
 		}
 	drawbars();
 }
-*/
 
 Client *
 nexttiled(Client *c) {
