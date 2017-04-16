@@ -66,6 +66,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", dmenuselbgcolor, "-sf", dmenuselfgcolor, NULL };
+static const char *dmenucalc[] = { "xsel -o | dmenu_run -p Calculate: | xargs echo | bc 2>&1 | dmenu -p Answer: | xsel -i", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", dmenuselbgcolor, "-sf", dmenuselfgcolor, NULL };
 static const char *termcmd[]  = { "/home/patrick/scripts/colorshuffle", NULL };
 //static const char *browscmd[]  = { "firefox", "--private-window", NULL };
 static const char *browscmd[]  = { "firefox", NULL };
@@ -106,6 +107,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	{ MODKEY,                       XK_semicolon, spawn,       {.v = dmenucalc } },
   { MODKEY,                       XK_n,      nametag,        {0} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
