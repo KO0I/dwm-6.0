@@ -1,0 +1,875 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Arg	dwm.c	/^} Arg;$/;"	t	typeref:union:__anon30	file:
+Arg	dwm_original.c	/^} Arg;$/;"	t	typeref:union:__anon6	file:
+Arg	dwm_pertag_only.c	/^} Arg;$/;"	t	typeref:union:__anon18	file:
+BUTTONMASK	dwm.c	44;"	d	file:
+BUTTONMASK	dwm_original.c	44;"	d	file:
+BUTTONMASK	dwm_pertag_only.c	44;"	d	file:
+Button	dwm.c	/^} Button;$/;"	t	typeref:struct:__anon31	file:
+Button	dwm_original.c	/^} Button;$/;"	t	typeref:struct:__anon7	file:
+Button	dwm_pertag_only.c	/^} Button;$/;"	t	typeref:struct:__anon19	file:
+CC	config.mk	/^CC = cc$/;"	m
+CFLAGS	config.mk	/^CFLAGS = -std=c99 -pedantic -Wall -Os ${INCS} ${CPPFLAGS}$/;"	m
+CLEANMASK	dwm.c	45;"	d	file:
+CLEANMASK	dwm_original.c	45;"	d	file:
+CLEANMASK	dwm_pertag_only.c	45;"	d	file:
+CPPFLAGS	config.mk	/^CPPFLAGS = -DVERSION=\\"${VERSION}\\" ${XINERAMAFLAGS}$/;"	m
+Client	dwm.c	/^struct Client {$/;"	s	file:
+Client	dwm.c	/^typedef struct Client Client;$/;"	t	typeref:struct:Client	file:
+Client	dwm_original.c	/^struct Client {$/;"	s	file:
+Client	dwm_original.c	/^typedef struct Client Client;$/;"	t	typeref:struct:Client	file:
+Client	dwm_pertag_only.c	/^struct Client {$/;"	s	file:
+Client	dwm_pertag_only.c	/^typedef struct Client Client;$/;"	t	typeref:struct:Client	file:
+ClkClientWin	dwm.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon29	file:
+ClkClientWin	dwm_original.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon5	file:
+ClkClientWin	dwm_pertag_only.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon17	file:
+ClkLast	dwm.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon29	file:
+ClkLast	dwm_original.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon5	file:
+ClkLast	dwm_pertag_only.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon17	file:
+ClkLtSymbol	dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon29	file:
+ClkLtSymbol	dwm_original.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon5	file:
+ClkLtSymbol	dwm_pertag_only.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon17	file:
+ClkRootWin	dwm.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon29	file:
+ClkRootWin	dwm_original.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon5	file:
+ClkRootWin	dwm_pertag_only.c	/^       ClkClientWin, ClkRootWin, ClkLast };             \/* clicks *\/$/;"	e	enum:__anon17	file:
+ClkStatusText	dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon29	file:
+ClkStatusText	dwm_original.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon5	file:
+ClkStatusText	dwm_pertag_only.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon17	file:
+ClkTagBar	dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon29	file:
+ClkTagBar	dwm_original.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon5	file:
+ClkTagBar	dwm_pertag_only.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon17	file:
+ClkWinTitle	dwm.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon29	file:
+ClkWinTitle	dwm_original.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon5	file:
+ClkWinTitle	dwm_pertag_only.c	/^enum { ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle,$/;"	e	enum:__anon17	file:
+ColBG	dwm.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon26	file:
+ColBG	dwm_original.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon2	file:
+ColBG	dwm_pertag_only.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon14	file:
+ColBorder	dwm.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon26	file:
+ColBorder	dwm_original.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon2	file:
+ColBorder	dwm_pertag_only.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon14	file:
+ColFG	dwm.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon26	file:
+ColFG	dwm_original.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon2	file:
+ColFG	dwm_pertag_only.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon14	file:
+ColLast	dwm.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon26	file:
+ColLast	dwm_original.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon2	file:
+ColLast	dwm_pertag_only.c	/^enum { ColBorder, ColFG, ColBG, ColLast };              \/* color *\/$/;"	e	enum:__anon14	file:
+CurLast	dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon25	file:
+CurLast	dwm_original.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon1	file:
+CurLast	dwm_pertag_only.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon13	file:
+CurMove	dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon25	file:
+CurMove	dwm_original.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon1	file:
+CurMove	dwm_pertag_only.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon13	file:
+CurNormal	dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon25	file:
+CurNormal	dwm_original.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon1	file:
+CurNormal	dwm_pertag_only.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon13	file:
+CurResize	dwm.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon25	file:
+CurResize	dwm_original.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon1	file:
+CurResize	dwm_pertag_only.c	/^enum { CurNormal, CurResize, CurMove, CurLast };        \/* cursor *\/$/;"	e	enum:__anon13	file:
+DC	dwm.c	/^} DC; \/* draw context *\/$/;"	t	typeref:struct:__anon32	file:
+DC	dwm_original.c	/^} DC; \/* draw context *\/$/;"	t	typeref:struct:__anon8	file:
+DC	dwm_pertag_only.c	/^} DC; \/* draw context *\/$/;"	t	typeref:struct:__anon20	file:
+HEIGHT	dwm.c	54;"	d	file:
+HEIGHT	dwm_original.c	54;"	d	file:
+HEIGHT	dwm_pertag_only.c	54;"	d	file:
+INCS	config.mk	/^INCS = -I. -I\/usr\/include -I${X11INC}$/;"	m
+INTERSECT	dwm.c	46;"	d	file:
+INTERSECT	dwm_original.c	46;"	d	file:
+INTERSECT	dwm_pertag_only.c	46;"	d	file:
+ISVISIBLE	dwm.c	48;"	d	file:
+ISVISIBLE	dwm_original.c	48;"	d	file:
+ISVISIBLE	dwm_pertag_only.c	48;"	d	file:
+Key	dwm.c	/^} Key;$/;"	t	typeref:struct:__anon34	file:
+Key	dwm_original.c	/^} Key;$/;"	t	typeref:struct:__anon10	file:
+Key	dwm_pertag_only.c	/^} Key;$/;"	t	typeref:struct:__anon22	file:
+LDFLAGS	config.mk	/^LDFLAGS = -s ${LIBS}$/;"	m
+LENGTH	dwm.c	49;"	d	file:
+LENGTH	dwm_original.c	49;"	d	file:
+LENGTH	dwm_pertag_only.c	49;"	d	file:
+LIBS	config.mk	/^LIBS = -L\/usr\/lib -lc -L${X11LIB} -lX11 ${XINERAMALIBS}$/;"	m
+Layout	dwm.c	/^} Layout;$/;"	t	typeref:struct:__anon35	file:
+Layout	dwm_original.c	/^} Layout;$/;"	t	typeref:struct:__anon11	file:
+Layout	dwm_pertag_only.c	/^} Layout;$/;"	t	typeref:struct:__anon23	file:
+MANPREFIX	config.mk	/^MANPREFIX = ${PREFIX}\/share\/man$/;"	m
+MAX	dwm.c	50;"	d	file:
+MAX	dwm_original.c	50;"	d	file:
+MAX	dwm_pertag_only.c	50;"	d	file:
+MIN	dwm.c	51;"	d	file:
+MIN	dwm_original.c	51;"	d	file:
+MIN	dwm_pertag_only.c	51;"	d	file:
+MODKEY	config.def.h	39;"	d
+MODKEY	config.h	43;"	d
+MOUSEMASK	dwm.c	52;"	d	file:
+MOUSEMASK	dwm_original.c	52;"	d	file:
+MOUSEMASK	dwm_pertag_only.c	52;"	d	file:
+Monitor	dwm.c	/^struct Monitor {$/;"	s	file:
+Monitor	dwm.c	/^typedef struct Monitor Monitor;$/;"	t	typeref:struct:Monitor	file:
+Monitor	dwm_original.c	/^struct Monitor {$/;"	s	file:
+Monitor	dwm_original.c	/^typedef struct Monitor Monitor;$/;"	t	typeref:struct:Monitor	file:
+Monitor	dwm_pertag_only.c	/^struct Monitor {$/;"	s	file:
+Monitor	dwm_pertag_only.c	/^typedef struct Monitor Monitor;$/;"	t	typeref:struct:Monitor	file:
+NetActiveWindow	dwm.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon27	file:
+NetActiveWindow	dwm_original.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon3	file:
+NetActiveWindow	dwm_pertag_only.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon15	file:
+NetLast	dwm.c	/^       NetWMWindowTypeDialog, NetLast };     \/* EWMH atoms *\/$/;"	e	enum:__anon27	file:
+NetLast	dwm_original.c	/^       NetWMWindowTypeDialog, NetLast };     \/* EWMH atoms *\/$/;"	e	enum:__anon3	file:
+NetLast	dwm_pertag_only.c	/^       NetWMWindowTypeDialog, NetLast };     \/* EWMH atoms *\/$/;"	e	enum:__anon15	file:
+NetSupported	dwm.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon27	file:
+NetSupported	dwm_original.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon3	file:
+NetSupported	dwm_pertag_only.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon15	file:
+NetWMFullscreen	dwm.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon27	file:
+NetWMFullscreen	dwm_original.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon3	file:
+NetWMFullscreen	dwm_pertag_only.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon15	file:
+NetWMName	dwm.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon27	file:
+NetWMName	dwm_original.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon3	file:
+NetWMName	dwm_pertag_only.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon15	file:
+NetWMState	dwm.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon27	file:
+NetWMState	dwm_original.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon3	file:
+NetWMState	dwm_pertag_only.c	/^enum { NetSupported, NetWMName, NetWMState,$/;"	e	enum:__anon15	file:
+NetWMWindowType	dwm.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon27	file:
+NetWMWindowType	dwm_original.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon3	file:
+NetWMWindowType	dwm_pertag_only.c	/^       NetWMFullscreen, NetActiveWindow, NetWMWindowType,$/;"	e	enum:__anon15	file:
+NetWMWindowTypeDialog	dwm.c	/^       NetWMWindowTypeDialog, NetLast };     \/* EWMH atoms *\/$/;"	e	enum:__anon27	file:
+NetWMWindowTypeDialog	dwm_original.c	/^       NetWMWindowTypeDialog, NetLast };     \/* EWMH atoms *\/$/;"	e	enum:__anon3	file:
+NetWMWindowTypeDialog	dwm_pertag_only.c	/^       NetWMWindowTypeDialog, NetLast };     \/* EWMH atoms *\/$/;"	e	enum:__anon15	file:
+NumTags	dwm.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	s	file:
+NumTags	dwm_original.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	s	file:
+NumTags	dwm_pertag_only.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	s	file:
+OBJ	Makefile	/^OBJ = ${SRC:.c=.o}$/;"	m
+PREFIX	config.mk	/^PREFIX = \/usr\/local$/;"	m
+Pertag	dwm.c	/^struct Pertag {$/;"	s	file:
+Pertag	dwm.c	/^typedef struct Pertag Pertag;$/;"	t	typeref:struct:Pertag	file:
+Pertag	dwm_pertag_only.c	/^struct Pertag {$/;"	s	file:
+Pertag	dwm_pertag_only.c	/^typedef struct Pertag Pertag;$/;"	t	typeref:struct:Pertag	file:
+Rule	dwm.c	/^} Rule;$/;"	t	typeref:struct:__anon36	file:
+Rule	dwm_original.c	/^} Rule;$/;"	t	typeref:struct:__anon12	file:
+Rule	dwm_pertag_only.c	/^} Rule;$/;"	t	typeref:struct:__anon24	file:
+SHCMD	config.def.h	47;"	d
+SHCMD	config.h	51;"	d
+SRC	Makefile	/^SRC = dwm.c$/;"	m
+TAGKEYS	config.def.h	40;"	d
+TAGKEYS	config.h	44;"	d
+TAGMASK	dwm.c	55;"	d	file:
+TAGMASK	dwm_original.c	55;"	d	file:
+TAGMASK	dwm_pertag_only.c	55;"	d	file:
+TEXTW	dwm.c	56;"	d	file:
+TEXTW	dwm_original.c	56;"	d	file:
+TEXTW	dwm_pertag_only.c	56;"	d	file:
+VERSION	config.mk	/^VERSION = 6.0$/;"	m
+WIDTH	dwm.c	53;"	d	file:
+WIDTH	dwm_original.c	53;"	d	file:
+WIDTH	dwm_pertag_only.c	53;"	d	file:
+WMDelete	dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon28	file:
+WMDelete	dwm_original.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon4	file:
+WMDelete	dwm_pertag_only.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon16	file:
+WMLast	dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon28	file:
+WMLast	dwm_original.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon4	file:
+WMLast	dwm_pertag_only.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon16	file:
+WMProtocols	dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon28	file:
+WMProtocols	dwm_original.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon4	file:
+WMProtocols	dwm_pertag_only.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon16	file:
+WMState	dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon28	file:
+WMState	dwm_original.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon4	file:
+WMState	dwm_pertag_only.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon16	file:
+WMTakeFocus	dwm.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon28	file:
+WMTakeFocus	dwm_original.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon4	file:
+WMTakeFocus	dwm_pertag_only.c	/^enum { WMProtocols, WMDelete, WMState, WMTakeFocus, WMLast }; \/* default atoms *\/$/;"	e	enum:__anon16	file:
+X11INC	config.mk	/^X11INC = \/usr\/X11R6\/include$/;"	m
+X11LIB	config.mk	/^X11LIB = \/usr\/X11R6\/lib$/;"	m
+XINERAMAFLAGS	config.mk	/^XINERAMAFLAGS = -DXINERAMA$/;"	m
+XINERAMALIBS	config.mk	/^XINERAMALIBS = -L${X11LIB} -lXinerama$/;"	m
+applyrules	dwm.c	/^applyrules(Client *c) {$/;"	f
+applyrules	dwm_original.c	/^applyrules(Client *c) {$/;"	f
+applyrules	dwm_pertag_only.c	/^applyrules(Client *c) {$/;"	f
+applysizehints	dwm.c	/^applysizehints(Client *c, int *x, int *y, int *w, int *h, Bool interact) {$/;"	f
+applysizehints	dwm_original.c	/^applysizehints(Client *c, int *x, int *y, int *w, int *h, Bool interact) {$/;"	f
+applysizehints	dwm_pertag_only.c	/^applysizehints(Client *c, int *x, int *y, int *w, int *h, Bool interact) {$/;"	f
+arg	dwm.c	/^	const Arg arg;$/;"	m	struct:__anon31	file:
+arg	dwm.c	/^	const Arg arg;$/;"	m	struct:__anon34	file:
+arg	dwm_original.c	/^	const Arg arg;$/;"	m	struct:__anon10	file:
+arg	dwm_original.c	/^	const Arg arg;$/;"	m	struct:__anon7	file:
+arg	dwm_pertag_only.c	/^	const Arg arg;$/;"	m	struct:__anon19	file:
+arg	dwm_pertag_only.c	/^	const Arg arg;$/;"	m	struct:__anon22	file:
+arrange	dwm.c	/^	void (*arrange)(Monitor *);$/;"	m	struct:__anon35	file:
+arrange	dwm.c	/^arrange(Monitor *m) {$/;"	f
+arrange	dwm_original.c	/^	void (*arrange)(Monitor *);$/;"	m	struct:__anon11	file:
+arrange	dwm_original.c	/^arrange(Monitor *m) {$/;"	f
+arrange	dwm_pertag_only.c	/^	void (*arrange)(Monitor *);$/;"	m	struct:__anon23	file:
+arrange	dwm_pertag_only.c	/^arrange(Monitor *m) {$/;"	f
+arrangemon	dwm.c	/^arrangemon(Monitor *m) {$/;"	f
+arrangemon	dwm_original.c	/^arrangemon(Monitor *m) {$/;"	f
+arrangemon	dwm_pertag_only.c	/^arrangemon(Monitor *m) {$/;"	f
+ascent	dwm.c	/^		int ascent;$/;"	m	struct:__anon32::__anon33	file:
+ascent	dwm_original.c	/^		int ascent;$/;"	m	struct:__anon8::__anon9	file:
+ascent	dwm_pertag_only.c	/^		int ascent;$/;"	m	struct:__anon20::__anon21	file:
+attach	dwm.c	/^attach(Client *c) {$/;"	f
+attach	dwm_original.c	/^attach(Client *c) {$/;"	f
+attach	dwm_pertag_only.c	/^attach(Client *c) {$/;"	f
+attachstack	dwm.c	/^attachstack(Client *c) {$/;"	f
+attachstack	dwm_original.c	/^attachstack(Client *c) {$/;"	f
+attachstack	dwm_pertag_only.c	/^attachstack(Client *c) {$/;"	f
+barwin	dwm.c	/^	Window barwin;$/;"	m	struct:Monitor	file:
+barwin	dwm_original.c	/^	Window barwin;$/;"	m	struct:Monitor	file:
+barwin	dwm_pertag_only.c	/^	Window barwin;$/;"	m	struct:Monitor	file:
+baseh	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+baseh	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+baseh	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+basew	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+basew	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+basew	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+bh	dwm.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	file:
+bh	dwm_original.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	file:
+bh	dwm_pertag_only.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	file:
+blw	dwm.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	file:
+blw	dwm_original.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	file:
+blw	dwm_pertag_only.c	/^static int bh, blw = 0;      \/* bar geometry *\/$/;"	v	file:
+borderpx	config.def.h	/^static const unsigned int borderpx  = 1;        \/* border pixel of windows *\/$/;"	v
+borderpx	config.h	/^static const unsigned int borderpx  = 2;        \/* border pixel of windows *\/$/;"	v
+broken	dwm.c	/^static const char broken[] = "broken";$/;"	v	file:
+broken	dwm_original.c	/^static const char broken[] = "broken";$/;"	v	file:
+broken	dwm_pertag_only.c	/^static const char broken[] = "broken";$/;"	v	file:
+browscmd	config.h	/^static const char *browscmd[]  = { "firefox", "--private-window", NULL};$/;"	v
+button	dwm.c	/^	unsigned int button;$/;"	m	struct:__anon31	file:
+button	dwm_original.c	/^	unsigned int button;$/;"	m	struct:__anon7	file:
+button	dwm_pertag_only.c	/^	unsigned int button;$/;"	m	struct:__anon19	file:
+buttonpress	dwm.c	/^buttonpress(XEvent *e) {$/;"	f
+buttonpress	dwm_original.c	/^buttonpress(XEvent *e) {$/;"	f
+buttonpress	dwm_pertag_only.c	/^buttonpress(XEvent *e) {$/;"	f
+buttons	config.def.h	/^static Button buttons[] = {$/;"	v
+buttons	config.h	/^static Button buttons[] = {$/;"	v
+bw	dwm.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
+bw	dwm_original.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
+bw	dwm_pertag_only.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
+by	dwm.c	/^	int by;               \/* bar geometry *\/$/;"	m	struct:Monitor	file:
+by	dwm_original.c	/^	int by;               \/* bar geometry *\/$/;"	m	struct:Monitor	file:
+by	dwm_pertag_only.c	/^	int by;               \/* bar geometry *\/$/;"	m	struct:Monitor	file:
+checkotherwm	dwm.c	/^checkotherwm(void) {$/;"	f
+checkotherwm	dwm_original.c	/^checkotherwm(void) {$/;"	f
+checkotherwm	dwm_pertag_only.c	/^checkotherwm(void) {$/;"	f
+class	dwm.c	/^	const char *class;$/;"	m	struct:__anon36	file:
+class	dwm_original.c	/^	const char *class;$/;"	m	struct:__anon12	file:
+class	dwm_pertag_only.c	/^	const char *class;$/;"	m	struct:__anon24	file:
+cleanup	dwm.c	/^cleanup(void) {$/;"	f
+cleanup	dwm_original.c	/^cleanup(void) {$/;"	f
+cleanup	dwm_pertag_only.c	/^cleanup(void) {$/;"	f
+cleanupmon	dwm.c	/^cleanupmon(Monitor *mon) {$/;"	f
+cleanupmon	dwm_original.c	/^cleanupmon(Monitor *mon) {$/;"	f
+cleanupmon	dwm_pertag_only.c	/^cleanupmon(Monitor *mon) {$/;"	f
+clearurgent	dwm.c	/^clearurgent(Client *c) {$/;"	f
+clearurgent	dwm_original.c	/^clearurgent(Client *c) {$/;"	f
+clearurgent	dwm_pertag_only.c	/^clearurgent(Client *c) {$/;"	f
+click	dwm.c	/^	unsigned int click;$/;"	m	struct:__anon31	file:
+click	dwm_original.c	/^	unsigned int click;$/;"	m	struct:__anon7	file:
+click	dwm_pertag_only.c	/^	unsigned int click;$/;"	m	struct:__anon19	file:
+clientmessage	dwm.c	/^clientmessage(XEvent *e) {$/;"	f
+clientmessage	dwm_original.c	/^clientmessage(XEvent *e) {$/;"	f
+clientmessage	dwm_pertag_only.c	/^clientmessage(XEvent *e) {$/;"	f
+clients	dwm.c	/^	Client *clients;$/;"	m	struct:Monitor	file:
+clients	dwm_original.c	/^	Client *clients;$/;"	m	struct:Monitor	file:
+clients	dwm_pertag_only.c	/^	Client *clients;$/;"	m	struct:Monitor	file:
+col	dwm.c	/^col(Monitor *m) {$/;"	f
+configure	dwm.c	/^configure(Client *c) {$/;"	f
+configure	dwm_original.c	/^configure(Client *c) {$/;"	f
+configure	dwm_pertag_only.c	/^configure(Client *c) {$/;"	f
+configurenotify	dwm.c	/^configurenotify(XEvent *e) {$/;"	f
+configurenotify	dwm_original.c	/^configurenotify(XEvent *e) {$/;"	f
+configurenotify	dwm_pertag_only.c	/^configurenotify(XEvent *e) {$/;"	f
+configurerequest	dwm.c	/^configurerequest(XEvent *e) {$/;"	f
+configurerequest	dwm_original.c	/^configurerequest(XEvent *e) {$/;"	f
+configurerequest	dwm_pertag_only.c	/^configurerequest(XEvent *e) {$/;"	f
+createmon	dwm.c	/^createmon(void) {$/;"	f
+createmon	dwm_original.c	/^createmon(void) {$/;"	f
+createmon	dwm_pertag_only.c	/^createmon(void) {$/;"	f
+cursor	dwm.c	/^static Cursor cursor[CurLast];$/;"	v	file:
+cursor	dwm_original.c	/^static Cursor cursor[CurLast];$/;"	v	file:
+cursor	dwm_pertag_only.c	/^static Cursor cursor[CurLast];$/;"	v	file:
+curtag	dwm.c	/^	unsigned int curtag, prevtag; \/* current and previous tag *\/$/;"	m	struct:Pertag	file:
+curtag	dwm_pertag_only.c	/^	unsigned int curtag, prevtag; \/* current and previous tag *\/$/;"	m	struct:Pertag	file:
+dc	dwm.c	/^static DC dc;$/;"	v	file:
+dc	dwm_original.c	/^static DC dc;$/;"	v	file:
+dc	dwm_pertag_only.c	/^static DC dc;$/;"	v	file:
+descent	dwm.c	/^		int descent;$/;"	m	struct:__anon32::__anon33	file:
+descent	dwm_original.c	/^		int descent;$/;"	m	struct:__anon8::__anon9	file:
+descent	dwm_pertag_only.c	/^		int descent;$/;"	m	struct:__anon20::__anon21	file:
+destroynotify	dwm.c	/^destroynotify(XEvent *e) {$/;"	f
+destroynotify	dwm_original.c	/^destroynotify(XEvent *e) {$/;"	f
+destroynotify	dwm_pertag_only.c	/^destroynotify(XEvent *e) {$/;"	f
+detach	dwm.c	/^detach(Client *c) {$/;"	f
+detach	dwm_original.c	/^detach(Client *c) {$/;"	f
+detach	dwm_pertag_only.c	/^detach(Client *c) {$/;"	f
+detachstack	dwm.c	/^detachstack(Client *c) {$/;"	f
+detachstack	dwm_original.c	/^detachstack(Client *c) {$/;"	f
+detachstack	dwm_pertag_only.c	/^detachstack(Client *c) {$/;"	f
+die	dwm.c	/^die(const char *errstr, ...) {$/;"	f
+die	dwm_original.c	/^die(const char *errstr, ...) {$/;"	f
+die	dwm_pertag_only.c	/^die(const char *errstr, ...) {$/;"	f
+dirtomon	dwm.c	/^dirtomon(int dir) {$/;"	f
+dirtomon	dwm_original.c	/^dirtomon(int dir) {$/;"	f
+dirtomon	dwm_pertag_only.c	/^dirtomon(int dir) {$/;"	f
+dmenucmd	config.def.h	/^static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };$/;"	v
+dmenucmd	config.h	/^static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };$/;"	v
+dmenufont	config.h	/^static const char dmenufont[]       = "Terminus-10";$/;"	v
+dpy	dwm.c	/^static Display *dpy;$/;"	v	file:
+dpy	dwm_original.c	/^static Display *dpy;$/;"	v	file:
+dpy	dwm_pertag_only.c	/^static Display *dpy;$/;"	v	file:
+drawable	dwm.c	/^	Drawable drawable;$/;"	m	struct:__anon32	file:
+drawable	dwm_original.c	/^	Drawable drawable;$/;"	m	struct:__anon8	file:
+drawable	dwm_pertag_only.c	/^	Drawable drawable;$/;"	m	struct:__anon20	file:
+drawbar	dwm.c	/^drawbar(Monitor *m) {$/;"	f
+drawbar	dwm_original.c	/^drawbar(Monitor *m) {$/;"	f
+drawbar	dwm_pertag_only.c	/^drawbar(Monitor *m) {$/;"	f
+drawbars	dwm.c	/^drawbars(void) {$/;"	f
+drawbars	dwm_original.c	/^drawbars(void) {$/;"	f
+drawbars	dwm_pertag_only.c	/^drawbars(void) {$/;"	f
+drawsquare	dwm.c	/^drawsquare(Bool filled, Bool empty, Bool invert, unsigned long col[ColLast]) {$/;"	f
+drawsquare	dwm_original.c	/^drawsquare(Bool filled, Bool empty, Bool invert, unsigned long col[ColLast]) {$/;"	f
+drawsquare	dwm_pertag_only.c	/^drawsquare(Bool filled, Bool empty, Bool invert, unsigned long col[ColLast]) {$/;"	f
+drawtext	dwm.c	/^drawtext(const char *text, unsigned long col[ColLast], Bool invert) {$/;"	f
+drawtext	dwm_original.c	/^drawtext(const char *text, unsigned long col[ColLast], Bool invert) {$/;"	f
+drawtext	dwm_pertag_only.c	/^drawtext(const char *text, unsigned long col[ColLast], Bool invert) {$/;"	f
+enternotify	dwm.c	/^enternotify(XEvent *e) {$/;"	f
+enternotify	dwm_original.c	/^enternotify(XEvent *e) {$/;"	f
+enternotify	dwm_pertag_only.c	/^enternotify(XEvent *e) {$/;"	f
+expose	dwm.c	/^expose(XEvent *e) {$/;"	f
+expose	dwm_original.c	/^expose(XEvent *e) {$/;"	f
+expose	dwm_pertag_only.c	/^expose(XEvent *e) {$/;"	f
+f	dwm.c	/^	float f;$/;"	m	union:__anon30	file:
+f	dwm_original.c	/^	float f;$/;"	m	union:__anon6	file:
+f	dwm_pertag_only.c	/^	float f;$/;"	m	union:__anon18	file:
+focus	dwm.c	/^focus(Client *c) {$/;"	f
+focus	dwm_original.c	/^focus(Client *c) {$/;"	f
+focus	dwm_pertag_only.c	/^focus(Client *c) {$/;"	f
+focusin	dwm.c	/^focusin(XEvent *e) { \/* there are some broken focus acquiring clients *\/$/;"	f
+focusin	dwm_original.c	/^focusin(XEvent *e) { \/* there are some broken focus acquiring clients *\/$/;"	f
+focusin	dwm_pertag_only.c	/^focusin(XEvent *e) { \/* there are some broken focus acquiring clients *\/$/;"	f
+focusmon	dwm.c	/^focusmon(const Arg *arg) {$/;"	f
+focusmon	dwm_original.c	/^focusmon(const Arg *arg) {$/;"	f
+focusmon	dwm_pertag_only.c	/^focusmon(const Arg *arg) {$/;"	f
+focusstack	dwm.c	/^focusstack(const Arg *arg) {$/;"	f
+focusstack	dwm_original.c	/^focusstack(const Arg *arg) {$/;"	f
+focusstack	dwm_pertag_only.c	/^focusstack(const Arg *arg) {$/;"	f
+font	config.def.h	/^static const char font[]            = "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*";$/;"	v
+font	config.h	/^static const char font[]            = "-*-terminus-medium-r-*-*-14-*-*-*-*-*-*-*";$/;"	v
+font	dwm.c	/^	} font;$/;"	m	struct:__anon32	typeref:struct:__anon32::__anon33	file:
+font	dwm_original.c	/^	} font;$/;"	m	struct:__anon8	typeref:struct:__anon8::__anon9	file:
+font	dwm_pertag_only.c	/^	} font;$/;"	m	struct:__anon20	typeref:struct:__anon20::__anon21	file:
+func	dwm.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon34	file:
+func	dwm.c	/^	void (*func)(const Arg *arg);$/;"	m	struct:__anon31	file:
+func	dwm_original.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon10	file:
+func	dwm_original.c	/^	void (*func)(const Arg *arg);$/;"	m	struct:__anon7	file:
+func	dwm_pertag_only.c	/^	void (*func)(const Arg *);$/;"	m	struct:__anon22	file:
+func	dwm_pertag_only.c	/^	void (*func)(const Arg *arg);$/;"	m	struct:__anon19	file:
+gc	dwm.c	/^	GC gc;$/;"	m	struct:__anon32	file:
+gc	dwm_original.c	/^	GC gc;$/;"	m	struct:__anon8	file:
+gc	dwm_pertag_only.c	/^	GC gc;$/;"	m	struct:__anon20	file:
+getatomprop	dwm.c	/^getatomprop(Client *c, Atom prop) {$/;"	f
+getatomprop	dwm_original.c	/^getatomprop(Client *c, Atom prop) {$/;"	f
+getatomprop	dwm_pertag_only.c	/^getatomprop(Client *c, Atom prop) {$/;"	f
+getcolor	dwm.c	/^getcolor(const char *colstr) {$/;"	f
+getcolor	dwm_original.c	/^getcolor(const char *colstr) {$/;"	f
+getcolor	dwm_pertag_only.c	/^getcolor(const char *colstr) {$/;"	f
+getrootptr	dwm.c	/^getrootptr(int *x, int *y) {$/;"	f
+getrootptr	dwm_original.c	/^getrootptr(int *x, int *y) {$/;"	f
+getrootptr	dwm_pertag_only.c	/^getrootptr(int *x, int *y) {$/;"	f
+getstate	dwm.c	/^getstate(Window w) {$/;"	f
+getstate	dwm_original.c	/^getstate(Window w) {$/;"	f
+getstate	dwm_pertag_only.c	/^getstate(Window w) {$/;"	f
+gettextprop	dwm.c	/^gettextprop(Window w, Atom atom, char *text, unsigned int size) {$/;"	f
+gettextprop	dwm_original.c	/^gettextprop(Window w, Atom atom, char *text, unsigned int size) {$/;"	f
+gettextprop	dwm_pertag_only.c	/^gettextprop(Window w, Atom atom, char *text, unsigned int size) {$/;"	f
+grabbuttons	dwm.c	/^grabbuttons(Client *c, Bool focused) {$/;"	f
+grabbuttons	dwm_original.c	/^grabbuttons(Client *c, Bool focused) {$/;"	f
+grabbuttons	dwm_pertag_only.c	/^grabbuttons(Client *c, Bool focused) {$/;"	f
+grabkeys	dwm.c	/^grabkeys(void) {$/;"	f
+grabkeys	dwm_original.c	/^grabkeys(void) {$/;"	f
+grabkeys	dwm_pertag_only.c	/^grabkeys(void) {$/;"	f
+h	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+h	dwm.c	/^	int x, y, w, h;$/;"	m	struct:__anon32	file:
+h	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+h	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:__anon8	file:
+h	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+h	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:__anon20	file:
+handler	dwm.c	/^static void (*handler[LASTEvent]) (XEvent *) = {$/;"	v	file:
+handler	dwm_original.c	/^static void (*handler[LASTEvent]) (XEvent *) = {$/;"	v	file:
+handler	dwm_pertag_only.c	/^static void (*handler[LASTEvent]) (XEvent *) = {$/;"	v	file:
+height	dwm.c	/^		int height;$/;"	m	struct:__anon32::__anon33	file:
+height	dwm_original.c	/^		int height;$/;"	m	struct:__anon8::__anon9	file:
+height	dwm_pertag_only.c	/^		int height;$/;"	m	struct:__anon20::__anon21	file:
+i	dwm.c	/^	int i;$/;"	m	union:__anon30	file:
+i	dwm_original.c	/^	int i;$/;"	m	union:__anon6	file:
+i	dwm_pertag_only.c	/^	int i;$/;"	m	union:__anon18	file:
+inch	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+inch	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+inch	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+incnmaster	dwm.c	/^incnmaster(const Arg *arg) {$/;"	f
+incnmaster	dwm_original.c	/^incnmaster(const Arg *arg) {$/;"	f
+incnmaster	dwm_pertag_only.c	/^incnmaster(const Arg *arg) {$/;"	f
+incw	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+incw	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+incw	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+initfont	dwm.c	/^initfont(const char *fontstr) {$/;"	f
+initfont	dwm_original.c	/^initfont(const char *fontstr) {$/;"	f
+initfont	dwm_pertag_only.c	/^initfont(const char *fontstr) {$/;"	f
+instance	dwm.c	/^	const char *instance;$/;"	m	struct:__anon36	file:
+instance	dwm_original.c	/^	const char *instance;$/;"	m	struct:__anon12	file:
+instance	dwm_pertag_only.c	/^	const char *instance;$/;"	m	struct:__anon24	file:
+isfixed	dwm.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfixed	dwm_original.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfixed	dwm_pertag_only.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfloating	dwm.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfloating	dwm.c	/^	Bool isfloating;$/;"	m	struct:__anon36	file:
+isfloating	dwm_original.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfloating	dwm_original.c	/^	Bool isfloating;$/;"	m	struct:__anon12	file:
+isfloating	dwm_pertag_only.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfloating	dwm_pertag_only.c	/^	Bool isfloating;$/;"	m	struct:__anon24	file:
+isfullscreen	dwm.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfullscreen	dwm_original.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isfullscreen	dwm_pertag_only.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isuniquegeom	dwm.c	/^isuniquegeom(XineramaScreenInfo *unique, size_t n, XineramaScreenInfo *info) {$/;"	f	file:
+isuniquegeom	dwm_original.c	/^isuniquegeom(XineramaScreenInfo *unique, size_t n, XineramaScreenInfo *info) {$/;"	f	file:
+isuniquegeom	dwm_pertag_only.c	/^isuniquegeom(XineramaScreenInfo *unique, size_t n, XineramaScreenInfo *info) {$/;"	f	file:
+isurgent	dwm.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isurgent	dwm_original.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+isurgent	dwm_pertag_only.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+keypress	dwm.c	/^keypress(XEvent *e) {$/;"	f
+keypress	dwm_original.c	/^keypress(XEvent *e) {$/;"	f
+keypress	dwm_pertag_only.c	/^keypress(XEvent *e) {$/;"	f
+keys	config.def.h	/^static Key keys[] = {$/;"	v
+keys	config.h	/^static Key keys[] = {$/;"	v
+keysym	dwm.c	/^	KeySym keysym;$/;"	m	struct:__anon34	file:
+keysym	dwm_original.c	/^	KeySym keysym;$/;"	m	struct:__anon10	file:
+keysym	dwm_pertag_only.c	/^	KeySym keysym;$/;"	m	struct:__anon22	file:
+killclient	dwm.c	/^killclient(const Arg *arg) {$/;"	f
+killclient	dwm_original.c	/^killclient(const Arg *arg) {$/;"	f
+killclient	dwm_pertag_only.c	/^killclient(const Arg *arg) {$/;"	f
+layouts	config.def.h	/^static const Layout layouts[] = {$/;"	v
+layouts	config.h	/^static const Layout layouts[] = {$/;"	v
+limitexceeded	dwm.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	m	struct:NumTags	file:
+limitexceeded	dwm_original.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	m	struct:NumTags	file:
+limitexceeded	dwm_pertag_only.c	/^struct NumTags { char limitexceeded[LENGTH(tags) > 31 ? -1 : 1]; };$/;"	m	struct:NumTags	file:
+lt	dwm.c	/^	const Layout *lt[2];$/;"	m	struct:Monitor	file:
+lt	dwm_original.c	/^	const Layout *lt[2];$/;"	m	struct:Monitor	file:
+lt	dwm_pertag_only.c	/^	const Layout *lt[2];$/;"	m	struct:Monitor	file:
+ltidxs	dwm.c	/^	const Layout *ltidxs[LENGTH(tags) + 1][2]; \/* matrix of tags and layouts indexes  *\/$/;"	m	struct:Pertag	file:
+ltidxs	dwm_pertag_only.c	/^	const Layout *ltidxs[LENGTH(tags) + 1][2]; \/* matrix of tags and layouts indexes  *\/$/;"	m	struct:Pertag	file:
+ltsymbol	dwm.c	/^	char ltsymbol[16];$/;"	m	struct:Monitor	file:
+ltsymbol	dwm_original.c	/^	char ltsymbol[16];$/;"	m	struct:Monitor	file:
+ltsymbol	dwm_pertag_only.c	/^	char ltsymbol[16];$/;"	m	struct:Monitor	file:
+main	dwm.c	/^main(int argc, char *argv[]) {$/;"	f
+main	dwm_original.c	/^main(int argc, char *argv[]) {$/;"	f
+main	dwm_pertag_only.c	/^main(int argc, char *argv[]) {$/;"	f
+manage	dwm.c	/^manage(Window w, XWindowAttributes *wa) {$/;"	f
+manage	dwm_original.c	/^manage(Window w, XWindowAttributes *wa) {$/;"	f
+manage	dwm_pertag_only.c	/^manage(Window w, XWindowAttributes *wa) {$/;"	f
+mappingnotify	dwm.c	/^mappingnotify(XEvent *e) {$/;"	f
+mappingnotify	dwm_original.c	/^mappingnotify(XEvent *e) {$/;"	f
+mappingnotify	dwm_pertag_only.c	/^mappingnotify(XEvent *e) {$/;"	f
+maprequest	dwm.c	/^maprequest(XEvent *e) {$/;"	f
+maprequest	dwm_original.c	/^maprequest(XEvent *e) {$/;"	f
+maprequest	dwm_pertag_only.c	/^maprequest(XEvent *e) {$/;"	f
+mask	dwm.c	/^	unsigned int mask;$/;"	m	struct:__anon31	file:
+mask	dwm_original.c	/^	unsigned int mask;$/;"	m	struct:__anon7	file:
+mask	dwm_pertag_only.c	/^	unsigned int mask;$/;"	m	struct:__anon19	file:
+maxa	dwm.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
+maxa	dwm_original.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
+maxa	dwm_pertag_only.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
+maxh	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+maxh	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+maxh	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+maxw	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+maxw	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+maxw	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+mfact	config.def.h	/^static const float mfact      = 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v
+mfact	config.h	/^static const float mfact      = 0.55; \/* factor of master area size [0.05..0.95] *\/$/;"	v
+mfact	dwm.c	/^	float mfact;$/;"	m	struct:Monitor	file:
+mfact	dwm_original.c	/^	float mfact;$/;"	m	struct:Monitor	file:
+mfact	dwm_pertag_only.c	/^	float mfact;$/;"	m	struct:Monitor	file:
+mfacts	dwm.c	/^	float mfacts[LENGTH(tags) + 1]; \/* mfacts per tag *\/$/;"	m	struct:Pertag	file:
+mfacts	dwm_pertag_only.c	/^	float mfacts[LENGTH(tags) + 1]; \/* mfacts per tag *\/$/;"	m	struct:Pertag	file:
+mh	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mh	dwm_original.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mh	dwm_pertag_only.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mina	dwm.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
+mina	dwm_original.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
+mina	dwm_pertag_only.c	/^	float mina, maxa;$/;"	m	struct:Client	file:
+minh	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+minh	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+minh	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+minw	dwm.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+minw	dwm_original.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+minw	dwm_pertag_only.c	/^	int basew, baseh, incw, inch, maxw, maxh, minw, minh;$/;"	m	struct:Client	file:
+mod	dwm.c	/^	unsigned int mod;$/;"	m	struct:__anon34	file:
+mod	dwm_original.c	/^	unsigned int mod;$/;"	m	struct:__anon10	file:
+mod	dwm_pertag_only.c	/^	unsigned int mod;$/;"	m	struct:__anon22	file:
+mon	dwm.c	/^	Monitor *mon;$/;"	m	struct:Client	file:
+mon	dwm_original.c	/^	Monitor *mon;$/;"	m	struct:Client	file:
+mon	dwm_pertag_only.c	/^	Monitor *mon;$/;"	m	struct:Client	file:
+monitor	dwm.c	/^	int monitor;$/;"	m	struct:__anon36	file:
+monitor	dwm_original.c	/^	int monitor;$/;"	m	struct:__anon12	file:
+monitor	dwm_pertag_only.c	/^	int monitor;$/;"	m	struct:__anon24	file:
+monocle	dwm.c	/^monocle(Monitor *m) {$/;"	f
+monocle	dwm_original.c	/^monocle(Monitor *m) {$/;"	f
+monocle	dwm_pertag_only.c	/^monocle(Monitor *m) {$/;"	f
+mons	dwm.c	/^static Monitor *mons = NULL, *selmon = NULL;$/;"	v	file:
+mons	dwm_original.c	/^static Monitor *mons = NULL, *selmon = NULL;$/;"	v	file:
+mons	dwm_pertag_only.c	/^static Monitor *mons = NULL, *selmon = NULL;$/;"	v	file:
+motionnotify	dwm.c	/^motionnotify(XEvent *e) {$/;"	f
+motionnotify	dwm_original.c	/^motionnotify(XEvent *e) {$/;"	f
+motionnotify	dwm_pertag_only.c	/^motionnotify(XEvent *e) {$/;"	f
+movemouse	dwm.c	/^movemouse(const Arg *arg) {$/;"	f
+movemouse	dwm_original.c	/^movemouse(const Arg *arg) {$/;"	f
+movemouse	dwm_pertag_only.c	/^movemouse(const Arg *arg) {$/;"	f
+mw	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mw	dwm_original.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mw	dwm_pertag_only.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mx	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mx	dwm_original.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+mx	dwm_pertag_only.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+my	dwm.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+my	dwm_original.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+my	dwm_pertag_only.c	/^	int mx, my, mw, mh;   \/* screen size *\/$/;"	m	struct:Monitor	file:
+name	dwm.c	/^	char name[256];$/;"	m	struct:Client	file:
+name	dwm_original.c	/^	char name[256];$/;"	m	struct:Client	file:
+name	dwm_pertag_only.c	/^	char name[256];$/;"	m	struct:Client	file:
+netatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
+netatom	dwm_original.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
+netatom	dwm_pertag_only.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
+neverfocus	dwm.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+neverfocus	dwm_original.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+neverfocus	dwm_pertag_only.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+next	dwm.c	/^	Client *next;$/;"	m	struct:Client	file:
+next	dwm.c	/^	Monitor *next;$/;"	m	struct:Monitor	file:
+next	dwm_original.c	/^	Client *next;$/;"	m	struct:Client	file:
+next	dwm_original.c	/^	Monitor *next;$/;"	m	struct:Monitor	file:
+next	dwm_pertag_only.c	/^	Client *next;$/;"	m	struct:Client	file:
+next	dwm_pertag_only.c	/^	Monitor *next;$/;"	m	struct:Monitor	file:
+nexttiled	dwm.c	/^nexttiled(Client *c) {$/;"	f
+nexttiled	dwm_original.c	/^nexttiled(Client *c) {$/;"	f
+nexttiled	dwm_pertag_only.c	/^nexttiled(Client *c) {$/;"	f
+nmaster	config.def.h	/^static const int nmaster      = 1;    \/* number of clients in master area *\/$/;"	v
+nmaster	config.h	/^static const int nmaster      = 1;    \/* number of clients in master area *\/$/;"	v
+nmaster	dwm.c	/^	int nmaster;$/;"	m	struct:Monitor	file:
+nmaster	dwm_original.c	/^	int nmaster;$/;"	m	struct:Monitor	file:
+nmaster	dwm_pertag_only.c	/^	int nmaster;$/;"	m	struct:Monitor	file:
+nmasters	dwm.c	/^	int nmasters[LENGTH(tags) + 1]; \/* number of windows in master area *\/$/;"	m	struct:Pertag	file:
+nmasters	dwm_pertag_only.c	/^	int nmasters[LENGTH(tags) + 1]; \/* number of windows in master area *\/$/;"	m	struct:Pertag	file:
+norm	dwm.c	/^	unsigned long norm[ColLast];$/;"	m	struct:__anon32	file:
+norm	dwm_original.c	/^	unsigned long norm[ColLast];$/;"	m	struct:__anon8	file:
+norm	dwm_pertag_only.c	/^	unsigned long norm[ColLast];$/;"	m	struct:__anon20	file:
+normbgcolor	config.def.h	/^static const char normbgcolor[]     = "#222222";$/;"	v
+normbgcolor	config.h	/^static const char normbgcolor[]     = "#222222";$/;"	v
+normbordercolor	config.def.h	/^static const char normbordercolor[] = "#444444";$/;"	v
+normbordercolor	config.h	/^static const char normbordercolor[] = "#444444";$/;"	v
+normfgcolor	config.def.h	/^static const char normfgcolor[]     = "#bbbbbb";$/;"	v
+normfgcolor	config.h	/^static const char normfgcolor[]     = "#bbbbbb";$/;"	v
+num	dwm.c	/^	int num;$/;"	m	struct:Monitor	file:
+num	dwm_original.c	/^	int num;$/;"	m	struct:Monitor	file:
+num	dwm_pertag_only.c	/^	int num;$/;"	m	struct:Monitor	file:
+numlockmask	dwm.c	/^static unsigned int numlockmask = 0;$/;"	v	file:
+numlockmask	dwm_original.c	/^static unsigned int numlockmask = 0;$/;"	v	file:
+numlockmask	dwm_pertag_only.c	/^static unsigned int numlockmask = 0;$/;"	v	file:
+oldbw	dwm.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
+oldbw	dwm_original.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
+oldbw	dwm_pertag_only.c	/^	int bw, oldbw;$/;"	m	struct:Client	file:
+oldh	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldh	dwm_original.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldh	dwm_pertag_only.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldstate	dwm.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+oldstate	dwm_original.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+oldstate	dwm_pertag_only.c	/^	Bool isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;$/;"	m	struct:Client	file:
+oldw	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldw	dwm_original.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldw	dwm_pertag_only.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldx	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldx	dwm_original.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldx	dwm_pertag_only.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldy	dwm.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldy	dwm_original.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+oldy	dwm_pertag_only.c	/^	int oldx, oldy, oldw, oldh;$/;"	m	struct:Client	file:
+pertag	dwm.c	/^	Pertag *pertag;$/;"	m	struct:Monitor	file:
+pertag	dwm_pertag_only.c	/^	Pertag *pertag;$/;"	m	struct:Monitor	file:
+pop	dwm.c	/^pop(Client *c) {$/;"	f
+pop	dwm_original.c	/^pop(Client *c) {$/;"	f
+pop	dwm_pertag_only.c	/^pop(Client *c) {$/;"	f
+prevtag	dwm.c	/^	unsigned int curtag, prevtag; \/* current and previous tag *\/$/;"	m	struct:Pertag	file:
+prevtag	dwm_pertag_only.c	/^	unsigned int curtag, prevtag; \/* current and previous tag *\/$/;"	m	struct:Pertag	file:
+propertynotify	dwm.c	/^propertynotify(XEvent *e) {$/;"	f
+propertynotify	dwm_original.c	/^propertynotify(XEvent *e) {$/;"	f
+propertynotify	dwm_pertag_only.c	/^propertynotify(XEvent *e) {$/;"	f
+quit	dwm.c	/^quit(const Arg *arg) {$/;"	f
+quit	dwm_original.c	/^quit(const Arg *arg) {$/;"	f
+quit	dwm_pertag_only.c	/^quit(const Arg *arg) {$/;"	f
+recttomon	dwm.c	/^recttomon(int x, int y, int w, int h) {$/;"	f
+recttomon	dwm_original.c	/^recttomon(int x, int y, int w, int h) {$/;"	f
+recttomon	dwm_pertag_only.c	/^recttomon(int x, int y, int w, int h) {$/;"	f
+resize	dwm.c	/^resize(Client *c, int x, int y, int w, int h, Bool interact) {$/;"	f
+resize	dwm_original.c	/^resize(Client *c, int x, int y, int w, int h, Bool interact) {$/;"	f
+resize	dwm_pertag_only.c	/^resize(Client *c, int x, int y, int w, int h, Bool interact) {$/;"	f
+resizeclient	dwm.c	/^resizeclient(Client *c, int x, int y, int w, int h) {$/;"	f
+resizeclient	dwm_original.c	/^resizeclient(Client *c, int x, int y, int w, int h) {$/;"	f
+resizeclient	dwm_pertag_only.c	/^resizeclient(Client *c, int x, int y, int w, int h) {$/;"	f
+resizehints	config.def.h	/^static const Bool resizehints = True; \/* True means respect size hints in tiled resizals *\/$/;"	v
+resizehints	config.h	/^static const Bool resizehints = True; \/* True means respect size hints in tiled resizals *\/$/;"	v
+resizemouse	dwm.c	/^resizemouse(const Arg *arg) {$/;"	f
+resizemouse	dwm_original.c	/^resizemouse(const Arg *arg) {$/;"	f
+resizemouse	dwm_pertag_only.c	/^resizemouse(const Arg *arg) {$/;"	f
+restack	dwm.c	/^restack(Monitor *m) {$/;"	f
+restack	dwm_original.c	/^restack(Monitor *m) {$/;"	f
+restack	dwm_pertag_only.c	/^restack(Monitor *m) {$/;"	f
+root	dwm.c	/^static Window root;$/;"	v	file:
+root	dwm_original.c	/^static Window root;$/;"	v	file:
+root	dwm_pertag_only.c	/^static Window root;$/;"	v	file:
+rules	config.def.h	/^static const Rule rules[] = {$/;"	v
+rules	config.h	/^static const Rule rules[] = {$/;"	v
+run	dwm.c	/^run(void) {$/;"	f
+run	dwm_original.c	/^run(void) {$/;"	f
+run	dwm_pertag_only.c	/^run(void) {$/;"	f
+running	dwm.c	/^static Bool running = True;$/;"	v	file:
+running	dwm_original.c	/^static Bool running = True;$/;"	v	file:
+running	dwm_pertag_only.c	/^static Bool running = True;$/;"	v	file:
+scan	dwm.c	/^scan(void) {$/;"	f
+scan	dwm_original.c	/^scan(void) {$/;"	f
+scan	dwm_pertag_only.c	/^scan(void) {$/;"	f
+screen	dwm.c	/^static int screen;$/;"	v	file:
+screen	dwm_original.c	/^static int screen;$/;"	v	file:
+screen	dwm_pertag_only.c	/^static int screen;$/;"	v	file:
+sel	dwm.c	/^	Client *sel;$/;"	m	struct:Monitor	file:
+sel	dwm.c	/^	unsigned long sel[ColLast];$/;"	m	struct:__anon32	file:
+sel	dwm_original.c	/^	Client *sel;$/;"	m	struct:Monitor	file:
+sel	dwm_original.c	/^	unsigned long sel[ColLast];$/;"	m	struct:__anon8	file:
+sel	dwm_pertag_only.c	/^	Client *sel;$/;"	m	struct:Monitor	file:
+sel	dwm_pertag_only.c	/^	unsigned long sel[ColLast];$/;"	m	struct:__anon20	file:
+selbgcolor	config.def.h	/^static const char selbgcolor[]      = "#005577";$/;"	v
+selbgcolor	config.h	/^static const char selbgcolor[]      = "#116655";$/;"	v
+selbordercolor	config.def.h	/^static const char selbordercolor[]  = "#005577";$/;"	v
+selbordercolor	config.h	/^static const char selbordercolor[]  = "#229977";$/;"	v
+selfgcolor	config.def.h	/^static const char selfgcolor[]      = "#eeeeee";$/;"	v
+selfgcolor	config.h	/^static const char selfgcolor[]      = "#eeeeee";$/;"	v
+sellt	dwm.c	/^	unsigned int sellt;$/;"	m	struct:Monitor	file:
+sellt	dwm_original.c	/^	unsigned int sellt;$/;"	m	struct:Monitor	file:
+sellt	dwm_pertag_only.c	/^	unsigned int sellt;$/;"	m	struct:Monitor	file:
+sellts	dwm.c	/^	unsigned int sellts[LENGTH(tags) + 1]; \/* selected layouts *\/$/;"	m	struct:Pertag	file:
+sellts	dwm_pertag_only.c	/^	unsigned int sellts[LENGTH(tags) + 1]; \/* selected layouts *\/$/;"	m	struct:Pertag	file:
+selmon	dwm.c	/^static Monitor *mons = NULL, *selmon = NULL;$/;"	v	file:
+selmon	dwm_original.c	/^static Monitor *mons = NULL, *selmon = NULL;$/;"	v	file:
+selmon	dwm_pertag_only.c	/^static Monitor *mons = NULL, *selmon = NULL;$/;"	v	file:
+seltags	dwm.c	/^	unsigned int seltags;$/;"	m	struct:Monitor	file:
+seltags	dwm_original.c	/^	unsigned int seltags;$/;"	m	struct:Monitor	file:
+seltags	dwm_pertag_only.c	/^	unsigned int seltags;$/;"	m	struct:Monitor	file:
+sendevent	dwm.c	/^sendevent(Client *c, Atom proto) {$/;"	f
+sendevent	dwm_original.c	/^sendevent(Client *c, Atom proto) {$/;"	f
+sendevent	dwm_pertag_only.c	/^sendevent(Client *c, Atom proto) {$/;"	f
+sendmon	dwm.c	/^sendmon(Client *c, Monitor *m) {$/;"	f
+sendmon	dwm_original.c	/^sendmon(Client *c, Monitor *m) {$/;"	f
+sendmon	dwm_pertag_only.c	/^sendmon(Client *c, Monitor *m) {$/;"	f
+set	dwm.c	/^		XFontSet set;$/;"	m	struct:__anon32::__anon33	file:
+set	dwm_original.c	/^		XFontSet set;$/;"	m	struct:__anon8::__anon9	file:
+set	dwm_pertag_only.c	/^		XFontSet set;$/;"	m	struct:__anon20::__anon21	file:
+setclientstate	dwm.c	/^setclientstate(Client *c, long state) {$/;"	f
+setclientstate	dwm_original.c	/^setclientstate(Client *c, long state) {$/;"	f
+setclientstate	dwm_pertag_only.c	/^setclientstate(Client *c, long state) {$/;"	f
+setfocus	dwm.c	/^setfocus(Client *c) {$/;"	f
+setfocus	dwm_original.c	/^setfocus(Client *c) {$/;"	f
+setfocus	dwm_pertag_only.c	/^setfocus(Client *c) {$/;"	f
+setfullscreen	dwm.c	/^setfullscreen(Client *c, Bool fullscreen) {$/;"	f
+setfullscreen	dwm_original.c	/^setfullscreen(Client *c, Bool fullscreen) {$/;"	f
+setfullscreen	dwm_pertag_only.c	/^setfullscreen(Client *c, Bool fullscreen) {$/;"	f
+setlayout	dwm.c	/^setlayout(const Arg *arg) {$/;"	f
+setlayout	dwm_original.c	/^setlayout(const Arg *arg) {$/;"	f
+setlayout	dwm_pertag_only.c	/^setlayout(const Arg *arg) {$/;"	f
+setmfact	dwm.c	/^setmfact(const Arg *arg) {$/;"	f
+setmfact	dwm_original.c	/^setmfact(const Arg *arg) {$/;"	f
+setmfact	dwm_pertag_only.c	/^setmfact(const Arg *arg) {$/;"	f
+setup	dwm.c	/^setup(void) {$/;"	f
+setup	dwm_original.c	/^setup(void) {$/;"	f
+setup	dwm_pertag_only.c	/^setup(void) {$/;"	f
+sh	dwm.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
+sh	dwm_original.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
+sh	dwm_pertag_only.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
+showbar	config.def.h	/^static const Bool showbar           = True;     \/* False means no bar *\/$/;"	v
+showbar	config.h	/^static const Bool showbar           = True;     \/* False means no bar *\/$/;"	v
+showbar	dwm.c	/^	Bool showbar;$/;"	m	struct:Monitor	file:
+showbar	dwm_original.c	/^	Bool showbar;$/;"	m	struct:Monitor	file:
+showbar	dwm_pertag_only.c	/^	Bool showbar;$/;"	m	struct:Monitor	file:
+showbars	dwm.c	/^	Bool showbars[LENGTH(tags) + 1]; \/* display bar for the current tag *\/$/;"	m	struct:Pertag	file:
+showbars	dwm_pertag_only.c	/^	Bool showbars[LENGTH(tags) + 1]; \/* display bar for the current tag *\/$/;"	m	struct:Pertag	file:
+showhide	dwm.c	/^showhide(Client *c) {$/;"	f
+showhide	dwm_original.c	/^showhide(Client *c) {$/;"	f
+showhide	dwm_pertag_only.c	/^showhide(Client *c) {$/;"	f
+sigchld	dwm.c	/^sigchld(int unused) {$/;"	f
+sigchld	dwm_original.c	/^sigchld(int unused) {$/;"	f
+sigchld	dwm_pertag_only.c	/^sigchld(int unused) {$/;"	f
+snap	config.def.h	/^static const unsigned int snap      = 32;       \/* snap pixel *\/$/;"	v
+snap	config.h	/^static const unsigned int snap      = 32;       \/* snap pixel *\/$/;"	v
+snext	dwm.c	/^	Client *snext;$/;"	m	struct:Client	file:
+snext	dwm_original.c	/^	Client *snext;$/;"	m	struct:Client	file:
+snext	dwm_pertag_only.c	/^	Client *snext;$/;"	m	struct:Client	file:
+spawn	dwm.c	/^spawn(const Arg *arg) {$/;"	f
+spawn	dwm_original.c	/^spawn(const Arg *arg) {$/;"	f
+spawn	dwm_pertag_only.c	/^spawn(const Arg *arg) {$/;"	f
+stack	dwm.c	/^	Client *stack;$/;"	m	struct:Monitor	file:
+stack	dwm_original.c	/^	Client *stack;$/;"	m	struct:Monitor	file:
+stack	dwm_pertag_only.c	/^	Client *stack;$/;"	m	struct:Monitor	file:
+stext	dwm.c	/^static char stext[256];$/;"	v	file:
+stext	dwm_original.c	/^static char stext[256];$/;"	v	file:
+stext	dwm_pertag_only.c	/^static char stext[256];$/;"	v	file:
+sw	dwm.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
+sw	dwm_original.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
+sw	dwm_pertag_only.c	/^static int sw, sh;           \/* X display screen geometry width, height *\/$/;"	v	file:
+symbol	dwm.c	/^	const char *symbol;$/;"	m	struct:__anon35	file:
+symbol	dwm_original.c	/^	const char *symbol;$/;"	m	struct:__anon11	file:
+symbol	dwm_pertag_only.c	/^	const char *symbol;$/;"	m	struct:__anon23	file:
+tag	dwm.c	/^tag(const Arg *arg) {$/;"	f
+tag	dwm_original.c	/^tag(const Arg *arg) {$/;"	f
+tag	dwm_pertag_only.c	/^tag(const Arg *arg) {$/;"	f
+tagmon	dwm.c	/^tagmon(const Arg *arg) {$/;"	f
+tagmon	dwm_original.c	/^tagmon(const Arg *arg) {$/;"	f
+tagmon	dwm_pertag_only.c	/^tagmon(const Arg *arg) {$/;"	f
+tags	config.def.h	/^static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };$/;"	v
+tags	config.h	/^static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };$/;"	v
+tags	dwm.c	/^	unsigned int tags;$/;"	m	struct:Client	file:
+tags	dwm.c	/^	unsigned int tags;$/;"	m	struct:__anon36	file:
+tags	dwm_original.c	/^	unsigned int tags;$/;"	m	struct:Client	file:
+tags	dwm_original.c	/^	unsigned int tags;$/;"	m	struct:__anon12	file:
+tags	dwm_pertag_only.c	/^	unsigned int tags;$/;"	m	struct:Client	file:
+tags	dwm_pertag_only.c	/^	unsigned int tags;$/;"	m	struct:__anon24	file:
+tagset	dwm.c	/^	unsigned int tagset[2];$/;"	m	struct:Monitor	file:
+tagset	dwm_original.c	/^	unsigned int tagset[2];$/;"	m	struct:Monitor	file:
+tagset	dwm_pertag_only.c	/^	unsigned int tagset[2];$/;"	m	struct:Monitor	file:
+termcmd	config.def.h	/^static const char *termcmd[]  = { "uxterm", NULL };$/;"	v
+termcmd	config.h	/^static const char *termcmd[]  = { "urxvt", NULL };$/;"	v
+textnw	dwm.c	/^textnw(const char *text, unsigned int len) {$/;"	f
+textnw	dwm_original.c	/^textnw(const char *text, unsigned int len) {$/;"	f
+textnw	dwm_pertag_only.c	/^textnw(const char *text, unsigned int len) {$/;"	f
+tile	dwm.c	/^tile(Monitor *m) {$/;"	f
+tile	dwm_original.c	/^tile(Monitor *m) {$/;"	f
+tile	dwm_pertag_only.c	/^tile(Monitor *m) {$/;"	f
+title	dwm.c	/^	const char *title;$/;"	m	struct:__anon36	file:
+title	dwm_original.c	/^	const char *title;$/;"	m	struct:__anon12	file:
+title	dwm_pertag_only.c	/^	const char *title;$/;"	m	struct:__anon24	file:
+togglebar	dwm.c	/^togglebar(const Arg *arg) {$/;"	f
+togglebar	dwm_original.c	/^togglebar(const Arg *arg) {$/;"	f
+togglebar	dwm_pertag_only.c	/^togglebar(const Arg *arg) {$/;"	f
+togglefloating	dwm.c	/^togglefloating(const Arg *arg) {$/;"	f
+togglefloating	dwm_original.c	/^togglefloating(const Arg *arg) {$/;"	f
+togglefloating	dwm_pertag_only.c	/^togglefloating(const Arg *arg) {$/;"	f
+toggletag	dwm.c	/^toggletag(const Arg *arg) {$/;"	f
+toggletag	dwm_original.c	/^toggletag(const Arg *arg) {$/;"	f
+toggletag	dwm_pertag_only.c	/^toggletag(const Arg *arg) {$/;"	f
+toggleview	dwm.c	/^toggleview(const Arg *arg) {$/;"	f
+toggleview	dwm_original.c	/^toggleview(const Arg *arg) {$/;"	f
+toggleview	dwm_pertag_only.c	/^toggleview(const Arg *arg) {$/;"	f
+topbar	config.def.h	/^static const Bool topbar            = True;     \/* False means bottom bar *\/$/;"	v
+topbar	config.h	/^static const Bool topbar            = True;     \/* False means bottom bar *\/$/;"	v
+topbar	dwm.c	/^	Bool topbar;$/;"	m	struct:Monitor	file:
+topbar	dwm_original.c	/^	Bool topbar;$/;"	m	struct:Monitor	file:
+topbar	dwm_pertag_only.c	/^	Bool topbar;$/;"	m	struct:Monitor	file:
+ui	dwm.c	/^	unsigned int ui;$/;"	m	union:__anon30	file:
+ui	dwm_original.c	/^	unsigned int ui;$/;"	m	union:__anon6	file:
+ui	dwm_pertag_only.c	/^	unsigned int ui;$/;"	m	union:__anon18	file:
+unfocus	dwm.c	/^unfocus(Client *c, Bool setfocus) {$/;"	f
+unfocus	dwm_original.c	/^unfocus(Client *c, Bool setfocus) {$/;"	f
+unfocus	dwm_pertag_only.c	/^unfocus(Client *c, Bool setfocus) {$/;"	f
+unmanage	dwm.c	/^unmanage(Client *c, Bool destroyed) {$/;"	f
+unmanage	dwm_original.c	/^unmanage(Client *c, Bool destroyed) {$/;"	f
+unmanage	dwm_pertag_only.c	/^unmanage(Client *c, Bool destroyed) {$/;"	f
+unmapnotify	dwm.c	/^unmapnotify(XEvent *e) {$/;"	f
+unmapnotify	dwm_original.c	/^unmapnotify(XEvent *e) {$/;"	f
+unmapnotify	dwm_pertag_only.c	/^unmapnotify(XEvent *e) {$/;"	f
+updatebarpos	dwm.c	/^updatebarpos(Monitor *m) {$/;"	f
+updatebarpos	dwm_original.c	/^updatebarpos(Monitor *m) {$/;"	f
+updatebarpos	dwm_pertag_only.c	/^updatebarpos(Monitor *m) {$/;"	f
+updatebars	dwm.c	/^updatebars(void) {$/;"	f
+updatebars	dwm_original.c	/^updatebars(void) {$/;"	f
+updatebars	dwm_pertag_only.c	/^updatebars(void) {$/;"	f
+updategeom	dwm.c	/^updategeom(void) {$/;"	f
+updategeom	dwm_original.c	/^updategeom(void) {$/;"	f
+updategeom	dwm_pertag_only.c	/^updategeom(void) {$/;"	f
+updatenumlockmask	dwm.c	/^updatenumlockmask(void) {$/;"	f
+updatenumlockmask	dwm_original.c	/^updatenumlockmask(void) {$/;"	f
+updatenumlockmask	dwm_pertag_only.c	/^updatenumlockmask(void) {$/;"	f
+updatesizehints	dwm.c	/^updatesizehints(Client *c) {$/;"	f
+updatesizehints	dwm_original.c	/^updatesizehints(Client *c) {$/;"	f
+updatesizehints	dwm_pertag_only.c	/^updatesizehints(Client *c) {$/;"	f
+updatestatus	dwm.c	/^updatestatus(void) {$/;"	f
+updatestatus	dwm_original.c	/^updatestatus(void) {$/;"	f
+updatestatus	dwm_pertag_only.c	/^updatestatus(void) {$/;"	f
+updatetitle	dwm.c	/^updatetitle(Client *c) {$/;"	f
+updatetitle	dwm_original.c	/^updatetitle(Client *c) {$/;"	f
+updatetitle	dwm_pertag_only.c	/^updatetitle(Client *c) {$/;"	f
+updatewindowtype	dwm.c	/^updatewindowtype(Client *c) {$/;"	f
+updatewindowtype	dwm_original.c	/^updatewindowtype(Client *c) {$/;"	f
+updatewindowtype	dwm_pertag_only.c	/^updatewindowtype(Client *c) {$/;"	f
+updatewmhints	dwm.c	/^updatewmhints(Client *c) {$/;"	f
+updatewmhints	dwm_original.c	/^updatewmhints(Client *c) {$/;"	f
+updatewmhints	dwm_pertag_only.c	/^updatewmhints(Client *c) {$/;"	f
+v	dwm.c	/^	const void *v;$/;"	m	union:__anon30	file:
+v	dwm_original.c	/^	const void *v;$/;"	m	union:__anon6	file:
+v	dwm_pertag_only.c	/^	const void *v;$/;"	m	union:__anon18	file:
+view	dwm.c	/^view(const Arg *arg) {$/;"	f
+view	dwm_original.c	/^view(const Arg *arg) {$/;"	f
+view	dwm_pertag_only.c	/^view(const Arg *arg) {$/;"	f
+w	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+w	dwm.c	/^	int x, y, w, h;$/;"	m	struct:__anon32	file:
+w	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+w	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:__anon8	file:
+w	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+w	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:__anon20	file:
+wh	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wh	dwm_original.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wh	dwm_pertag_only.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+win	dwm.c	/^	Window win;$/;"	m	struct:Client	file:
+win	dwm_original.c	/^	Window win;$/;"	m	struct:Client	file:
+win	dwm_pertag_only.c	/^	Window win;$/;"	m	struct:Client	file:
+wintoclient	dwm.c	/^wintoclient(Window w) {$/;"	f
+wintoclient	dwm_original.c	/^wintoclient(Window w) {$/;"	f
+wintoclient	dwm_pertag_only.c	/^wintoclient(Window w) {$/;"	f
+wintomon	dwm.c	/^wintomon(Window w) {$/;"	f
+wintomon	dwm_original.c	/^wintomon(Window w) {$/;"	f
+wintomon	dwm_pertag_only.c	/^wintomon(Window w) {$/;"	f
+wmatom	dwm.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
+wmatom	dwm_original.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
+wmatom	dwm_pertag_only.c	/^static Atom wmatom[WMLast], netatom[NetLast];$/;"	v	file:
+ww	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+ww	dwm_original.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+ww	dwm_pertag_only.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wx	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wx	dwm_original.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wx	dwm_pertag_only.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wy	dwm.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wy	dwm_original.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+wy	dwm_pertag_only.c	/^	int wx, wy, ww, wh;   \/* window area  *\/$/;"	m	struct:Monitor	file:
+x	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+x	dwm.c	/^	int x, y, w, h;$/;"	m	struct:__anon32	file:
+x	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+x	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:__anon8	file:
+x	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+x	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:__anon20	file:
+xerror	dwm.c	/^xerror(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerror	dwm_original.c	/^xerror(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerror	dwm_pertag_only.c	/^xerror(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrordummy	dwm.c	/^xerrordummy(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrordummy	dwm_original.c	/^xerrordummy(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrordummy	dwm_pertag_only.c	/^xerrordummy(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrorstart	dwm.c	/^xerrorstart(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrorstart	dwm_original.c	/^xerrorstart(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrorstart	dwm_pertag_only.c	/^xerrorstart(Display *dpy, XErrorEvent *ee) {$/;"	f
+xerrorxlib	dwm.c	/^static int (*xerrorxlib)(Display *, XErrorEvent *);$/;"	v	file:
+xerrorxlib	dwm_original.c	/^static int (*xerrorxlib)(Display *, XErrorEvent *);$/;"	v	file:
+xerrorxlib	dwm_pertag_only.c	/^static int (*xerrorxlib)(Display *, XErrorEvent *);$/;"	v	file:
+xfont	dwm.c	/^		XFontStruct *xfont;$/;"	m	struct:__anon32::__anon33	file:
+xfont	dwm_original.c	/^		XFontStruct *xfont;$/;"	m	struct:__anon8::__anon9	file:
+xfont	dwm_pertag_only.c	/^		XFontStruct *xfont;$/;"	m	struct:__anon20::__anon21	file:
+y	dwm.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+y	dwm.c	/^	int x, y, w, h;$/;"	m	struct:__anon32	file:
+y	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+y	dwm_original.c	/^	int x, y, w, h;$/;"	m	struct:__anon8	file:
+y	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:Client	file:
+y	dwm_pertag_only.c	/^	int x, y, w, h;$/;"	m	struct:__anon20	file:
+zoom	dwm.c	/^zoom(const Arg *arg) {$/;"	f
+zoom	dwm_original.c	/^zoom(const Arg *arg) {$/;"	f
+zoom	dwm_pertag_only.c	/^zoom(const Arg *arg) {$/;"	f

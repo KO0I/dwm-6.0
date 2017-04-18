@@ -1,0 +1,24 @@
+https://tronche.com/gui/x/xlib/ICC/client-to-window-manager/XSetClassHint.html
+
+Idea 1: have a way to select a window, press a key combo, and XSetClassHint
+such that dwm will:
+
+  1. Note the WM_CLASS, name, all relevant details
+      a. Print out what those are first?
+  2. Find all windows that match WM_CLASS and other unique parameters, and
+      then use XSetClassHint so that they always float, for example.
+
+The goal is to get menus and dumb, pointless extra interfaces that are
+designed to float (but don't because the programmers likely didn't bother to
+make that happen for the sake of ICCCM standards) to always float instead of
+tile. Windows with this property might also have a color cue to distinguish it from
+ordinarily floating windows.
+
+I cannot go through a process whereby I am always adding to the dwm
+configuration file and recompiling. That's beyond inconvenient, because the
+tools I work with generate dozens of these damn things. I'd rather mark the
+windows as I go rather than have to stop and manually examine the output of
+xprop so I can make a filter rule.
+
+There's an even worse problem, and one of these days I need to actually sit
+down and sample these and pore over the files. 
