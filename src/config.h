@@ -6,7 +6,8 @@
   //static const char font[]            = "Terminus 14";
 //  static const char font[]            = "Terminus 12";
 //#else
-  static const char font[]            = "-*-terminus-medium-r-*-*-14-*-*-*-*-*-*-*";
+  static const char font[]            = "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*";
+//  static const char font[]            = "Terminus (TTF):size=12:bold=true:antialias=false";
   //static const char dmenufont[]       = "terminus-10";
 //  static const char dmenufont[]       = "terminus-10";
   static const char dmenufont[]       = "Terminus (TTF):size=12:antialias=false";
@@ -15,7 +16,7 @@
 //#include <themes/when_destiny_meets_oblivion.h>
 #include <themes/parts_unknown.h>
 static const unsigned int borderpx  = 2;    /* border pixel of windows */
-static const unsigned int gappx     = 4;        /* gap pixel between windows */
+static const unsigned int gappx     = 18;        /* gap pixel between windows */
 static const unsigned int snap      = 32;   /* snap pixel */
 static const unsigned int minwsz    = 5;
 static const Bool showbar           = True; /* False means no bar */
@@ -33,6 +34,8 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            False,       -1 },
 	{ "Firefox",  NULL,       NULL,       0,            False,       -1 },
+	{ "XTerm",    NULL,       "foo",      0,            True,       -1 },
+  { "Msgcompose", NULL,     NULL,       0,            True,       -1 }
 };
 
 /* layout(s) */
@@ -69,7 +72,8 @@ static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgco
 static const char *dmenucalc[] = { "xsel -o | dmenu_run -p Calculate: | xargs echo | bc 2>&1 | dmenu -p Answer: | xsel -i", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", dmenuselbgcolor, "-sf", dmenuselfgcolor, NULL };
 static const char *termcmd[]  = { "/home/patrick/scripts/colorshuffle", NULL };
 //static const char *browscmd[]  = { "firefox", "--private-window", NULL };
-static const char *browscmd[]  = { "firefox", NULL };
+//static const char *browscmd[]  = { "firefox", NULL };
+static const char *browscmd[] = { "/home/patrick/build/surf-git/src/surf/surf", "duckduckgo.com", NULL };
 static const char *emailcmd[]  = { "thunderbird", NULL };
 static const char *lockcmd[]  = { "xscreensaver-command","-lock", NULL };
 static const char *taskcmd[]  = { "/home/patrick/scripts/todo", NULL };
