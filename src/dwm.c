@@ -71,6 +71,7 @@ typedef union {
 	int i;
 	unsigned int ui;
 	float f;
+  int g;
 	float sf;
 	const void *v;
 } Arg;
@@ -227,6 +228,7 @@ static void setclientstate(Client *c, long state);
 static void setfocus(Client *c);
 static void setfullscreen(Client *c, Bool fullscreen);
 static void setlayout(const Arg *arg);
+//static void setgappx(const Arg *arg);
 static void setmfact(const Arg *arg);
 static void setsmfact(const Arg *arg);
 static void setup(void);
@@ -1684,6 +1686,25 @@ setmfact(const Arg *arg) {
 	selmon->mfact = selmon->pertag->mfacts[selmon->pertag->curtag] = f;
 	arrange(selmon);
 }
+
+
+//IDEA: TODO have a key combo toggle different gap sizes (small, medium, large
+//to taste)
+/*
+void
+setgappx(const Arg *arg) {
+  switch(gappx_choice%3)
+  if(gappx_choice%3==0)
+    gappx=0;
+  else if(gappx_choice%3==1)
+    gappx=20;
+  else if(gappx_choice%3==2)
+    gappx=50;
+  else
+    gappx=20;
+}
+*/
+
 
 void
 setsmfact(const Arg *arg) {

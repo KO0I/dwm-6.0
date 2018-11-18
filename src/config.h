@@ -10,14 +10,16 @@
   static const char font[]              = "-*-terminus-medium--r-*-*-14-*-*-*-*-*-*-*";
 //  static const char font[]            = "-xos4-terminus-medium-*-normal-*-14-140-72-72-c-80-iso10646-1";
 //  static const char dmenufont[]         = "-*-terminus-medium--r-*-*-*-14-*-*-*-*-*-*-*";
-  static const char dmenufont[]       = "terminus-10";
+//  static const char dmenufont[]       = "terminus-10";
+static const char dmenufont[] = "xos4 Terminus:size=8";
 //  static const char dmenufont[]       = "-xos4-terminus-medium-*-normal-*-14-140-72-72-c-80-iso10646-1";
 //#endif
 //static const char font[]            = "-*-inconsolata--r-*-*-20-*-*-*-*-*-*-*";
 //#include <themes/when_destiny_meets_oblivion.h>
 #include <themes/parts_unknown.h>
 static const unsigned int borderpx  = 2;    /* border pixel of windows */
-unsigned int gappx     = 20;        /* gap pixel between windows */
+static unsigned int gappx     = 15;        /* gap pixel between windows */
+static unsigned int gappx_choice = 1;
 static const unsigned int snap      = 32;   /* snap pixel */
 static const unsigned int minwsz    = 5;
 static const Bool showbar           = True; /* False means no bar */
@@ -93,6 +95,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
+	//{ MODKEY,                       XK_g,      setgappx,       {.g = gappx_choice++} },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY|ShiftMask,             XK_h,      setsmfact,      {.f = +0.05} },
